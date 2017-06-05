@@ -12,7 +12,7 @@ function getAndPrintHTML() {
   https.get(requestOptions, function (response) {
     response.setEncoding('utf8');
     response.on('data', function (data) {
-      chunks += data;
+      chunks +=  data;
     });
     response.on('end', function() {
       console.log(chunks)
