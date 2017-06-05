@@ -21,13 +21,13 @@ module.exports = function getHTML(options, callback)  {
   });
 }
 
-function printHTML (html) {
-  console.log(html);
-}
+// function printHTML (html) {
+//   console.log(html);
+// }
 
-var requestOptions = {
-  host: 'sytantris.github.io',
-  path: '/http-examples/step5.html'
-};
-//call the function to run it
-module.exports(requestOptions, printHTML);
+// var requestOptions = {
+//   host: 'sytantris.github.io',
+//   path: '/http-examples/step5.html'
+// };
+// //call the function to run it
+// module.exports(requestOptions, printHTML);

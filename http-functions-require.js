@@ -7,7 +7,7 @@ var options = {
 };
 
 function printHTML(html) {
-  //console.log(html);
+  console.log(html);
 }
 
 getHTML(options, printHTML);
