@@ -1,5 +1,6 @@
 
 
+
 var https = require('https');
 
 function getAndPrintHTML(options) {
@@ -24,4 +25,3 @@ getAndPrintHTML({
     host: 'sytantris.github.io',
     path: '/http-examples/step3.html'
   });
-//call the function to run it
