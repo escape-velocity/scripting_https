@@ -13,8 +13,7 @@ function getAndPrintHTML() {
   https.get(requestOptions, function (response) {
     response.setEncoding('utf8');
     response.on('data', function (data) {
-      chunks += data;
-      //inside of the data function we added the append to the variable
+      chunks +=  data;
     });
     response.on('end', function() {
       console.log(chunks)
